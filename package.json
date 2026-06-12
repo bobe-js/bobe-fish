@@ -1,17 +1,18 @@
 {
-    "name": "tokyo-night",
-    "displayName": "Tokyo Night",
+    "name": "bobe-cat",
+    "displayName": "Bobe Cat",
     "description": "A clean Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night.",
-    "version": "1.1.2",
-    "publisher": "enkia",
+    "version": "0.0.1",
+    "publisher": "smooth-cat",
     "license": "MIT",
     "keywords": [
         "theme",
-        "contrast",
         "dark",
-        "light",
+        "bobe",
+        "cat",
         "tokyo",
-        "clean"
+        "night"
+        
     ],
     "icon": "icon.png",
     "homepage": "https://github.com/enkia/tokyo-night-vscode-theme",
@@ -36,19 +37,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Tokyo Night",
-                "uiTheme": "vs-dark",
-                "path": "./themes/tokyo-night-color-theme.json"
-            },
-            {
-                "label": "Tokyo Night Storm",
+                "label": "Bobe Cat",
                 "uiTheme": "vs-dark",
                 "path": "./themes/tokyo-night-storm-color-theme.json"
-            },
-            {
-                "label": "Tokyo Night Light",
-                "uiTheme": "vs",
-                "path": "./themes/tokyo-night-light-color-theme.json"
             }
         ]
     },
