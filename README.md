@@ -1,4 +1,4 @@
-# Bobe Cat
+# Bobe Fish
 
 > A Dark purple Theme for Visual Studio Code.
 
@@ -26,14 +26,14 @@
 ## Installation
 
 1. Open **Extensions** sidebar in VS Code (`Cmd+Shift+X`)
-2. Search for `Bobe Cat`
+2. Search for `Bobe Fish`
 3. Click **Install**
-4. Open the Command Palette (`Cmd+Shift+P`) and select **Preferences: Color Theme** → `Bobe Cat`
+4. Open the Command Palette (`Cmd+Shift+P`) and select **Preferences: Color Theme** → `Bobe Fish`
 
 Or install directly from the `.vsix` file:
 
 ```bash
-code --install-extension bobe-cat-0.0.1.vsix
+code --install-extension bobe-fish-0.0.1.vsix
 ```
 
 ## Development

@@ -1,24 +1,24 @@
 {
-    "name": "bobe-cat",
-    "displayName": "Bobe Cat",
+    "name": "bobe-fish",
+    "displayName": "Bobe Fish",
     "description": "A Dark purple Theme for Visual Studio Code",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "publisher": "smooth-cat",
     "license": "MIT",
     "keywords": [
         "theme",
         "dark",
         "bobe",
-        "cat"
+        "fish"
     ],
     "icon": "",
-    "homepage": "https://github.com/bobe-js/bobe-cat",
+    "homepage": "https://github.com/bobe-js/bobe-fish",
     "repository": {
-        "url": "https://github.com/bobe-js/bobe-cat",
+        "url": "https://github.com/bobe-js/bobe-fish",
         "type": "git"
     },
     "bugs": {
-        "url": "https://github.com/bobe-js/bobe-cat/issues"
+        "url": "https://github.com/bobe-js/bobe-fish/issues"
     },
     "galleryBanner": {
         "color": "#1f2335",
@@ -34,9 +34,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Bobe Cat",
+                "label": "Bobe Fish",
                 "uiTheme": "vs-dark",
-                "path": "./themes/bobe-cat-color-theme.json"
+                "path": "./themes/bobe-fish-color-theme.json"
             }
         ]
     },
