@@ -1,27 +1,24 @@
 {
     "name": "bobe-cat",
     "displayName": "Bobe Cat",
-    "description": "A clean Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night.",
-    "version": "0.0.1",
+    "description": "A Dark purple Theme for Visual Studio Code",
+    "version": "0.0.2",
     "publisher": "smooth-cat",
     "license": "MIT",
     "keywords": [
         "theme",
         "dark",
         "bobe",
-        "cat",
-        "tokyo",
-        "night"
-        
+        "cat"
     ],
-    "icon": "icon.png",
-    "homepage": "https://github.com/enkia/tokyo-night-vscode-theme",
+    "icon": "",
+    "homepage": "https://github.com/bobe-js/bobe-cat",
     "repository": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme",
+        "url": "https://github.com/bobe-js/bobe-cat",
         "type": "git"
     },
     "bugs": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme/issues"
+        "url": "https://github.com/bobe-js/bobe-cat/issues"
     },
     "galleryBanner": {
         "color": "#1f2335",
@@ -39,12 +36,16 @@
             {
                 "label": "Bobe Cat",
                 "uiTheme": "vs-dark",
-                "path": "./themes/tokyo-night-storm-color-theme.json"
+                "path": "./themes/bobe-cat-color-theme.json"
             }
         ]
     },
     "scripts": {
-        "package": "vsce package",
-        "publish": "vsce publish"
+        "log": "vsce login",
+        "build": "vsce package",
+        "pub": "vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "^2.15.0"
     }
 }
