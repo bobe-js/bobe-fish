@@ -11,7 +11,7 @@
         "bobe",
         "fish"
     ],
-    "icon": "",
+    "icon": "icon.png",
     "homepage": "https://github.com/bobe-js/bobe-fish",
     "repository": {
         "url": "https://github.com/bobe-js/bobe-fish",
