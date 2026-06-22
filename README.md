@@ -10,9 +10,17 @@
 
 ## Preview
 
-<!-- TODO: Add screenshots -->
+### Bobe
 
-## Palette
+<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/bobe.png?raw=true" />
+
+### Vue
+
+<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/vue.png?raw=true" />
+
+### React
+
+<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/react.png?raw=true"/>
 
 ## Installation
 
@@ -42,4 +50,4 @@ npm run pub
 
 ## License
 
-MIT — see [LICENSE.txt](./LICENSE.txt) for details.
+MIT — see [LICENSE](./LICENSEt) for details.
