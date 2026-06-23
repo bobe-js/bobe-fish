@@ -2,3 +2,5 @@
 .vscode/**
 static/**
 .gitignore
+scripts/**
+themes/*.template.json

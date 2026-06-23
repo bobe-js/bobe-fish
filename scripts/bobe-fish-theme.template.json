@@ -1,0 +1,1556 @@
+{
+  "name": "Bobe Fish",
+  "author": "Enkia",
+  "maintainers": ["Enkia <enki77@gmail.com>"],
+  "type": "dark",
+  "semanticTokenColors": {
+    "parameter.declaration": {
+      "foreground": "语义参数声明前景"
+    },
+    "parameter": {
+      "foreground": "语义参数前景"
+    },
+    "property.declaration": {
+      "foreground": "语义属性声明前景"
+    },
+    "property.defaultLibrary": {
+      "foreground": "语义默认库属性前景"
+    },
+    "*.defaultLibrary": {
+      "foreground": "语义默认库符号前景"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "语义默认库变量前景"
+    },
+    "variable.declaration": {
+      "foreground": "语义变量声明前景"
+    },
+    "variable": {
+      "foreground": "语义变量前景"
+    }
+  },
+  "semanticClass": "bobe-fish",
+  "colors": {
+    "foreground": "全局前景",
+    "descriptionForeground": "描述前景",
+    "disabledForeground": "禁用前景",
+    "focusBorder": "焦点边框",
+    "errorForeground": "错误前景",
+    "widget.shadow": "控件阴影",
+    "scrollbar.shadow": "滚动条阴影",
+    "badge.background": "徽章背景",
+    "badge.foreground": "徽章前景",
+    "icon.foreground": "图标前景",
+    "settings.headerForeground": "设置标题前景",
+    "window.activeBorder": "窗口激活边框",
+    "window.inactiveBorder": "窗口未激活边框",
+    "sash.hoverBorder": "分隔条悬停边框",
+    "toolbar.activeBackground": "工具栏激活背景",
+    "toolbar.hoverBackground": "工具栏悬停背景",
+    "extensionButton.prominentBackground": "扩展按钮突出背景",
+    "extensionButton.prominentHoverBackground": "扩展按钮突出悬停背景",
+    "extensionButton.prominentForeground": "扩展按钮突出前景",
+    "extensionBadge.remoteBackground": "扩展徽章远程背景",
+    "extensionBadge.remoteForeground": "扩展徽章远程前景",
+    "button.background": "按钮背景",
+    "button.hoverBackground": "按钮悬停背景",
+    "button.secondaryBackground": "按钮次要背景",
+    "button.foreground": "按钮前景",
+    "progressBar.background": "进度条背景",
+    "input.background": "输入框背景",
+    "input.foreground": "输入框前景",
+    "input.border": "输入框边框",
+    "input.placeholderForeground": "输入框占位符前景",
+    "inputOption.activeForeground": "输入选项激活前景",
+    "inputOption.activeBackground": "输入选项激活背景",
+    "inputValidation.infoForeground": "输入校验信息前景",
+    "inputValidation.infoBackground": "输入校验信息背景",
+    "inputValidation.infoBorder": "输入校验信息边框",
+    "inputValidation.warningForeground": "输入校验警告前景",
+    "inputValidation.warningBackground": "输入校验警告背景",
+    "inputValidation.warningBorder": "输入校验警告边框",
+    "inputValidation.errorForeground": "输入校验错误前景",
+    "inputValidation.errorBackground": "输入校验错误背景",
+    "inputValidation.errorBorder": "输入校验错误边框",
+    "dropdown.foreground": "下拉框前景",
+    "dropdown.background": "下拉框背景",
+    "dropdown.listBackground": "下拉框列表背景",
+    "activityBar.background": "活动栏背景",
+    "activityBar.foreground": "活动栏前景",
+    "activityBar.inactiveForeground": "活动栏未激活前景",
+    "activityBar.border": "活动栏边框",
+    "activityBarBadge.background": "活动栏徽章背景",
+    "activityBarBadge.foreground": "活动栏徽章前景",
+    "activityBarTop.foreground": "顶部活动栏前景",
+    "activityBarTop.inactiveForeground": "顶部活动栏未激活前景",
+    "tree.indentGuidesStroke": "树缩进参考线描边",
+    "sideBar.foreground": "侧边栏前景",
+    "sideBar.background": "侧边栏背景",
+    "sideBar.border": "侧边栏边框",
+    "sideBarTitle.foreground": "侧边栏标题前景",
+    "sideBarSectionHeader.background": "侧边栏分区标题背景",
+    "sideBarSectionHeader.foreground": "侧边栏分区标题前景",
+    "sideBarSectionHeader.border": "侧边栏分区标题边框",
+    "sideBar.dropBackground": "侧边栏拖放背景",
+    "list.dropBackground": "列表拖放背景",
+    "list.deemphasizedForeground": "列表弱化前景",
+    "list.activeSelectionBackground": "列表激活选中背景",
+    "list.activeSelectionForeground": "列表激活选中前景",
+    "list.inactiveSelectionBackground": "列表未激活选中背景",
+    "list.inactiveSelectionForeground": "列表未激活选中前景",
+    "list.focusBackground": "列表焦点背景",
+    "list.focusForeground": "列表焦点前景",
+    "list.hoverBackground": "列表悬停背景",
+    "list.hoverForeground": "列表悬停前景",
+    "list.highlightForeground": "列表高亮前景",
+    "list.invalidItemForeground": "列表无效项前景",
+    "list.errorForeground": "列表错误前景",
+    "list.warningForeground": "列表警告前景",
+    "listFilterWidget.background": "列表筛选器背景",
+    "listFilterWidget.outline": "列表筛选器轮廓",
+    "listFilterWidget.noMatchesOutline": "列表筛选器无匹配轮廓",
+    "pickerGroup.foreground": "选择器分组前景",
+    "pickerGroup.border": "选择器分组边框",
+    "quickInput.background": "快速输入面板背景",
+    "quickInput.foreground": "快速输入面板前景",
+    "quickInputTitle.background": "快速输入标题背景",
+    "quickInputList.focusBackground": "快速输入列表焦点背景",
+    "quickInputList.focusForeground": "快速输入列表焦点前景",
+    "quickInputList.focusIconForeground": "快速输入列表焦点图标前景",
+    "scrollbarSlider.background": "滚动条滑块背景",
+    "scrollbarSlider.hoverBackground": "滚动条滑块悬停背景",
+    "scrollbarSlider.activeBackground": "滚动条滑块激活背景",
+    "editorBracketHighlight.foreground1": "编辑器括号高亮前景1",
+    "editorBracketHighlight.foreground2": "编辑器括号高亮前景2",
+    "editorBracketHighlight.foreground3": "编辑器括号高亮前景3",
+    "editorBracketHighlight.foreground4": "编辑器括号高亮前景4",
+    "editorBracketHighlight.foreground5": "编辑器括号高亮前景5",
+    "editorBracketHighlight.foreground6": "编辑器括号高亮前景6",
+    "editorBracketHighlight.unexpectedBracket.foreground": "编辑器括号高亮意外括号前景",
+    "editorBracketPairGuide.activeBackground1": "编辑器括号对导引线激活背景1",
+    "editorBracketPairGuide.activeBackground2": "编辑器括号对导引线激活背景2",
+    "editorBracketPairGuide.activeBackground3": "编辑器括号对导引线激活背景3",
+    "editorBracketPairGuide.activeBackground4": "编辑器括号对导引线激活背景4",
+    "editorBracketPairGuide.activeBackground5": "编辑器括号对导引线激活背景5",
+    "editorBracketPairGuide.activeBackground6": "编辑器括号对导引线激活背景6",
+    "selection.background": "全局选区背景",
+    "editor.background": "编辑器背景",
+    "editor.foreground": "编辑器前景",
+    "editor.foldBackground": "编辑器折叠背景",
+    "editorLink.activeForeground": "编辑器链接激活前景",
+    "editor.selectionBackground": "编辑器选中背景",
+    "editor.inactiveSelectionBackground": "编辑器未激活选中背景",
+    "editor.findMatchBackground": "编辑器查找匹配背景",
+    "editor.findMatchBorder": "编辑器查找匹配边框",
+    "editor.findMatchHighlightBackground": "编辑器查找匹配高亮背景",
+    "editor.findRangeHighlightBackground": "编辑器查找范围高亮背景",
+    "editor.rangeHighlightBackground": "编辑器范围高亮背景",
+    "editor.wordHighlightBackground": "编辑器单词高亮背景",
+    "editor.wordHighlightStrongBackground": "编辑器强单词高亮背景",
+    "editor.selectionHighlightBackground": "编辑器选中高亮背景",
+    "editorCursor.foreground": "编辑器光标前景",
+    "editorIndentGuide.background1": "编辑器缩进参考线背景1",
+    "editorIndentGuide.activeBackground1": "编辑器缩进参考线激活背景1",
+    "editorLineNumber.foreground": "编辑器行号前景",
+    "editorLineNumber.activeForeground": "编辑器行号激活前景",
+    "editor.lineHighlightBackground": "编辑器行高亮背景",
+    "editorWhitespace.foreground": "编辑器空白符前景",
+    "editor.placeholder.foreground": "编辑器占位符前景",
+    "editorMarkerNavigation.background": "编辑器标记导航背景",
+    "editorHoverWidget.foreground": "编辑器悬浮提示前景",
+    "editorHoverWidget.background": "编辑器悬浮提示背景",
+    "editorHoverWidget.border": "编辑器悬浮提示边框",
+    "editorBracketMatch.background": "编辑器括号匹配背景",
+    "editorBracketMatch.border": "编辑器括号匹配边框",
+    "editorOverviewRuler.border": "编辑器概览标尺边框",
+    "editorOverviewRuler.errorForeground": "编辑器概览标尺错误前景",
+    "editorOverviewRuler.warningForeground": "编辑器概览标尺警告前景",
+    "editorOverviewRuler.infoForeground": "编辑器概览标尺信息前景",
+    "editorOverviewRuler.bracketMatchForeground": "编辑器概览标尺括号匹配前景",
+    "editorOverviewRuler.findMatchForeground": "编辑器概览标尺查找匹配前景",
+    "editorOverviewRuler.rangeHighlightForeground": "编辑器概览标尺范围高亮前景",
+    "editorOverviewRuler.selectionHighlightForeground": "编辑器概览标尺选中高亮前景",
+    "editorOverviewRuler.wordHighlightForeground": "编辑器概览标尺单词高亮前景",
+    "editorOverviewRuler.wordHighlightStrongForeground": "编辑器概览标尺强单词高亮前景",
+    "editorOverviewRuler.modifiedForeground": "编辑器概览标尺已修改前景",
+    "editorOverviewRuler.addedForeground": "编辑器概览标尺新增前景",
+    "editorOverviewRuler.deletedForeground": "编辑器概览标尺删除前景",
+    "editorRuler.foreground": "编辑器标尺前景",
+    "editorError.foreground": "编辑器错误前景",
+    "editorWarning.foreground": "编辑器警告前景",
+    "editorInfo.foreground": "编辑器信息前景",
+    "editorHint.foreground": "编辑器提示前景",
+    "editorGutter.modifiedBackground": "编辑器边栏已修改背景",
+    "editorGutter.addedBackground": "编辑器边栏新增背景",
+    "editorGutter.deletedBackground": "编辑器边栏删除背景",
+    "editorGhostText.foreground": "编辑器幽灵文本前景",
+    "minimapGutter.modifiedBackground": "小地图边栏已修改背景",
+    "minimapGutter.addedBackground": "小地图边栏新增背景",
+    "minimapGutter.deletedBackground": "小地图边栏删除背景",
+    "editorGroup.border": "编辑器组边框",
+    "editorGroup.emptyBackground": "编辑器组空白背景",
+    "editorGroup.dropBackground": "编辑器组拖放背景",
+    "editorGroupHeader.tabsBorder": "编辑器组标题栏标签页边框",
+    "editorGroupHeader.tabsBackground": "编辑器组标题栏标签页背景",
+    "editorGroupHeader.noTabsBackground": "编辑器组标题栏无标签页背景",
+    "editorGroupHeader.border": "编辑器组标题栏边框",
+    "editorPane.background": "编辑器窗格背景",
+    "editorWidget.foreground": "编辑器控件前景",
+    "editorWidget.background": "编辑器控件背景",
+    "editorWidget.border": "编辑器控件边框",
+    "editorWidget.resizeBorder": "编辑器控件调整大小边框",
+    "editorSuggestWidget.background": "编辑器建议控件背景",
+    "editorSuggestWidget.border": "编辑器建议控件边框",
+    "editorSuggestWidget.selectedBackground": "编辑器建议控件选中背景",
+    "editorSuggestWidget.highlightForeground": "编辑器建议控件高亮前景",
+    "editorCodeLens.foreground": "编辑器代码镜头前景",
+    "editorLightBulb.foreground": "编辑器灯泡前景",
+    "editorLightBulbAutoFix.foreground": "编辑器自动修复灯泡前景",
+    "editorInlayHint.foreground": "编辑器内嵌提示前景",
+    "peekView.border": "窥视视图边框",
+    "peekViewEditor.background": "窥视编辑器背景",
+    "peekViewEditor.matchHighlightBackground": "窥视编辑器匹配高亮背景",
+    "peekViewTitle.background": "窥视视图标题背景",
+    "peekViewTitleLabel.foreground": "窥视视图标题标签前景",
+    "peekViewTitleDescription.foreground": "窥视视图标题描述前景",
+    "peekViewResult.background": "窥视结果背景",
+    "peekViewResult.selectionForeground": "窥视结果选中前景",
+    "peekViewResult.selectionBackground": "窥视结果选中背景",
+    "peekViewResult.lineForeground": "窥视结果行前景",
+    "peekViewResult.fileForeground": "窥视结果文件前景",
+    "peekViewResult.matchHighlightBackground": "窥视结果匹配高亮背景",
+    "diffEditor.insertedTextBackground": "差异编辑器插入文本背景",
+    "diffEditor.removedTextBackground": "差异编辑器移除文本背景",
+    "diffEditor.insertedLineBackground": "差异编辑器插入行背景",
+    "diffEditor.removedLineBackground": "差异编辑器移除行背景",
+    "diffEditorGutter.insertedLineBackground": "差异编辑器边栏插入行背景",
+    "diffEditorGutter.removedLineBackground": "差异编辑器边栏移除行背景",
+    "diffEditorOverview.insertedForeground": "差异编辑器概览插入前景",
+    "diffEditorOverview.removedForeground": "差异编辑器概览移除前景",
+    "diffEditor.diagonalFill": "差异编辑器对角填充",
+    "diffEditor.unchangedCodeBackground": "差异编辑器未变更代码背景",
+    "multiDiffEditor.headerBackground": "多差异编辑器标题背景",
+    "multiDiffEditor.border": "多差异编辑器边框",
+    "breadcrumb.background": "面包屑背景",
+    "breadcrumbPicker.background": "面包屑选择器背景",
+    "breadcrumb.foreground": "面包屑前景",
+    "breadcrumb.focusForeground": "面包屑焦点前景",
+    "breadcrumb.activeSelectionForeground": "面包屑激活选中前景",
+    "tab.activeBackground": "标签页激活背景",
+    "tab.inactiveBackground": "标签页未激活背景",
+    "tab.activeForeground": "标签页激活前景",
+    "tab.hoverForeground": "标签页悬停前景",
+    "tab.activeBorder": "标签页激活边框",
+    "tab.inactiveForeground": "标签页未激活前景",
+    "tab.border": "标签页边框",
+    "tab.unfocusedActiveForeground": "标签页失焦激活前景",
+    "tab.unfocusedInactiveForeground": "标签页失焦未激活前景",
+    "tab.unfocusedHoverForeground": "标签页失焦悬停前景",
+    "tab.activeModifiedBorder": "标签页激活已修改边框",
+    "tab.inactiveModifiedBorder": "标签页未激活已修改边框",
+    "tab.unfocusedActiveBorder": "标签页失焦激活边框",
+    "tab.lastPinnedBorder": "标签页最后固定边框",
+    "panel.background": "面板背景",
+    "panel.border": "面板边框",
+    "panelTitle.activeForeground": "面板标题激活前景",
+    "panelTitle.inactiveForeground": "面板标题未激活前景",
+    "panelTitle.activeBorder": "面板标题激活边框",
+    "panelInput.border": "面板输入框边框",
+    "statusBar.foreground": "状态栏前景",
+    "statusBar.background": "状态栏背景",
+    "statusBar.border": "状态栏边框",
+    "statusBar.noFolderBackground": "状态栏无文件夹背景",
+    "statusBar.debuggingBackground": "状态栏调试背景",
+    "statusBar.debuggingForeground": "状态栏调试前景",
+    "statusBarItem.activeBackground": "状态栏项激活背景",
+    "statusBarItem.hoverBackground": "状态栏项悬停背景",
+    "statusBarItem.prominentBackground": "状态栏项突出背景",
+    "statusBarItem.prominentHoverBackground": "状态栏项突出悬停背景",
+    "titleBar.activeForeground": "标题栏激活前景",
+    "titleBar.inactiveForeground": "标题栏未激活前景",
+    "titleBar.activeBackground": "标题栏激活背景",
+    "titleBar.inactiveBackground": "标题栏未激活背景",
+    "titleBar.border": "标题栏边框",
+    "walkThrough.embeddedEditorBackground": "演练嵌入编辑器背景",
+    "textLink.foreground": "文本链接前景",
+    "textLink.activeForeground": "文本链接激活前景",
+    "textPreformat.foreground": "预格式文本前景",
+    "textBlockQuote.background": "文本引用块背景",
+    "textCodeBlock.background": "文本代码块背景",
+    "textSeparator.foreground": "文本分隔线前景",
+    "debugExceptionWidget.border": "调试异常控件边框",
+    "debugExceptionWidget.background": "调试异常控件背景",
+    "debugToolBar.background": "调试工具栏背景",
+    "debugConsole.infoForeground": "调试控制台信息前景",
+    "debugConsole.errorForeground": "调试控制台错误前景",
+    "debugConsole.sourceForeground": "调试控制台来源前景",
+    "debugConsole.warningForeground": "调试控制台警告前景",
+    "debugConsoleInputIcon.foreground": "调试控制台输入图标前景",
+    "editor.stackFrameHighlightBackground": "编辑器堆栈帧高亮背景",
+    "editor.focusedStackFrameHighlightBackground": "编辑器焦点堆栈帧高亮背景",
+    "debugView.stateLabelForeground": "调试视图状态标签前景",
+    "debugView.stateLabelBackground": "调试视图状态标签背景",
+    "debugView.valueChangedHighlight": "调试视图值变更高亮",
+    "debugTokenExpression.name": "调试表达式名称",
+    "debugTokenExpression.value": "调试表达式值",
+    "debugTokenExpression.string": "调试表达式字符串",
+    "debugTokenExpression.boolean": "调试表达式布尔值",
+    "debugTokenExpression.number": "调试表达式数字",
+    "debugTokenExpression.error": "调试表达式错误",
+    "debugIcon.breakpointForeground": "调试图标断点前景",
+    "debugIcon.breakpointDisabledForeground": "调试图标禁用断点前景",
+    "debugIcon.breakpointUnverifiedForeground": "调试图标未验证断点前景",
+    "terminal.background": "终端背景",
+    "terminal.foreground": "终端前景",
+    "terminal.selectionBackground": "终端选中背景",
+    "terminal.ansiBlack": "终端ANSI 黑色",
+    "terminal.ansiRed": "终端ANSI 红色",
+    "terminal.ansiGreen": "终端ANSI 绿色",
+    "terminal.ansiYellow": "终端ANSI 黄色",
+    "terminal.ansiBlue": "终端ANSI 蓝色",
+    "terminal.ansiMagenta": "终端ANSI 品红色",
+    "terminal.ansiCyan": "终端ANSI 青色",
+    "terminal.ansiWhite": "终端ANSI 白色",
+    "terminal.ansiBrightBlack": "终端ANSI 亮黑色",
+    "terminal.ansiBrightRed": "终端ANSI 亮红色",
+    "terminal.ansiBrightGreen": "终端ANSI 亮绿色",
+    "terminal.ansiBrightYellow": "终端ANSI 亮黄色",
+    "terminal.ansiBrightBlue": "终端ANSI 亮蓝色",
+    "terminal.ansiBrightMagenta": "终端ANSI 亮品红色",
+    "terminal.ansiBrightCyan": "终端ANSI 亮青色",
+    "terminal.ansiBrightWhite": "终端ANSI 亮白色",
+    "gitDecoration.modifiedResourceForeground": "Git 装饰已修改资源前景",
+    "gitDecoration.ignoredResourceForeground": "Git 装饰忽略资源前景",
+    "gitDecoration.deletedResourceForeground": "Git 装饰删除资源前景",
+    "gitDecoration.renamedResourceForeground": "Git 装饰重命名资源前景",
+    "gitDecoration.addedResourceForeground": "Git 装饰新增资源前景",
+    "gitDecoration.untrackedResourceForeground": "Git 装饰未跟踪资源前景",
+    "gitDecoration.conflictingResourceForeground": "Git 装饰冲突资源前景",
+    "gitDecoration.stageDeletedResourceForeground": "Git 装饰暂存删除资源前景",
+    "gitDecoration.stageModifiedResourceForeground": "Git 装饰暂存修改资源前景",
+    "notebook.editorBackground": "笔记本编辑器背景",
+    "notebook.cellEditorBackground": "笔记本单元格编辑器背景",
+    "notebook.cellBorderColor": "笔记本单元格边框颜色",
+    "notebook.focusedCellBorder": "笔记本焦点单元格边框",
+    "notebook.cellStatusBarItemHoverBackground": "笔记本单元格状态栏项悬停背景",
+    "charts.red": "图表红色",
+    "charts.blue": "图表蓝色",
+    "charts.yellow": "图表黄色",
+    "charts.orange": "图表橙色",
+    "charts.green": "图表绿色",
+    "charts.purple": "图表紫色",
+    "charts.foreground": "图表前景",
+    "charts.lines": "图表线条",
+    "scmGraph.historyItemHoverLabelForeground": "源代码管理图历史项悬停标签前景",
+    "scmGraph.foreground1": "源代码管理图前景1",
+    "scmGraph.foreground2": "源代码管理图前景2",
+    "scmGraph.foreground3": "源代码管理图前景3",
+    "scmGraph.foreground4": "源代码管理图前景4",
+    "scmGraph.foreground5": "源代码管理图前景5",
+    "scmGraph.historyItemHoverAdditionsForeground": "源代码管理图历史项悬停新增前景",
+    "scmGraph.historyItemHoverDeletionsForeground": "源代码管理图历史项悬停删除前景",
+    "scmGraph.historyItemRefColor": "源代码管理图历史项引用颜色",
+    "scmGraph.historyItemRemoteRefColor": "源代码管理图历史项远程引用颜色",
+    "scmGraph.historyItemBaseRefColor": "源代码管理图历史项基础引用颜色",
+    "scmGraph.historyItemHoverDefaultLabelForeground": "源代码管理图历史项悬停默认标签前景",
+    "merge.currentHeaderBackground": "合并当前标题背景",
+    "merge.currentContentBackground": "合并当前内容背景",
+    "merge.incomingHeaderBackground": "合并传入标题背景",
+    "merge.incomingContentBackground": "合并传入内容背景",
+    "mergeEditor.change.background": "合并编辑器变更背景",
+    "mergeEditor.change.word.background": "合并编辑器变更单词背景",
+    "mergeEditor.conflict.unhandledUnfocused.border": "合并编辑器冲突未处理失焦边框",
+    "mergeEditor.conflict.unhandledFocused.border": "合并编辑器冲突未处理焦点边框",
+    "mergeEditor.conflict.handledUnfocused.border": "合并编辑器冲突已处理失焦边框",
+    "mergeEditor.conflict.handledFocused.border": "合并编辑器冲突已处理焦点边框",
+    "mergeEditor.conflict.handled.minimapOverViewRuler": "合并编辑器冲突已处理小地图概览标尺",
+    "mergeEditor.conflict.unhandled.minimapOverViewRuler": "合并编辑器冲突未处理小地图概览标尺",
+    "gitlens.trailingLineForegroundColor": "GitLens 尾随行前景颜色",
+    "gitlens.gutterUncommittedForegroundColor": "GitLens 边栏未提交前景颜色",
+    "gitlens.gutterForegroundColor": "GitLens 边栏前景颜色",
+    "gitlens.gutterBackgroundColor": "GitLens 边栏背景颜色",
+    "notificationCenterHeader.background": "通知中心标题背景",
+    "notifications.background": "通知背景",
+    "notificationLink.foreground": "通知链接前景",
+    "notificationsErrorIcon.foreground": "通知错误图标前景",
+    "notificationsWarningIcon.foreground": "通知警告图标前景",
+    "notificationsInfoIcon.foreground": "通知信息图标前景",
+    "menubar.selectionForeground": "菜单栏选中前景",
+    "menubar.selectionBackground": "菜单栏选中背景",
+    "menubar.selectionBorder": "菜单栏选中边框",
+    "menu.foreground": "菜单前景",
+    "menu.background": "菜单背景",
+    "menu.selectionForeground": "菜单选中前景",
+    "menu.selectionBackground": "菜单选中背景",
+    "menu.separatorBackground": "菜单分隔符背景",
+    "menu.border": "菜单边框",
+    "chat.requestBorder": "聊天请求边框",
+    "chat.slashCommandBackground": "聊天斜杠命令背景",
+    "chat.slashCommandForeground": "聊天斜杠命令前景",
+    "chat.avatarBackground": "聊天头像背景",
+    "chat.avatarForeground": "聊天头像前景",
+    "inlineChat.background": "内联聊天背景",
+    "inlineChat.foreground": "内联聊天前景",
+    "inlineChatDiff.inserted": "内联聊天差异插入",
+    "inlineChatDiff.removed": "内联聊天差异移除"
+  },
+  "tokenColors": [
+    {
+      "name": "Italics - Comments, Storage, Keyword Flow, Vue attributes, Decorators",
+      "scope": [
+        "comment",
+        "meta.var.expr storage.type",
+        "keyword.control.flow",
+        "keyword.control.return",
+        "meta.directive.vue punctuation.separator.key-value.html",
+        "meta.directive.vue entity.other.attribute-name.html",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "storage.modifier",
+        "string.quoted.docstring.multi",
+        "string.quoted.docstring.multi.python punctuation.definition.string.begin",
+        "string.quoted.docstring.multi.python punctuation.definition.string.end",
+        "string.quoted.docstring.multi.python constant.character.escape"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Fix YAML block scalar, Python Logical",
+      "scope": [
+        "keyword.control.flow.block-scalar.literal",
+        "keyword.control.flow.python"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "comment.block.documentation",
+        "punctuation.definition.comment",
+        "comment.block.documentation punctuation",
+        "string.quoted.docstring.multi",
+        "string.quoted.docstring.multi.python punctuation.definition.string.begin",
+        "string.quoted.docstring.multi.python punctuation.definition.string.end",
+        "string.quoted.docstring.multi.python constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "语法注释前景"
+      }
+    },
+    {
+      "name": "Comment Doc",
+      "scope": [
+        "keyword.operator.assignment.jsdoc",
+        "comment.block.documentation variable",
+        "comment.block.documentation storage",
+        "comment.block.documentation keyword",
+        "comment.block.documentation support",
+        "comment.block.documentation markup",
+        "comment.block.documentation markup.inline.raw.string.markdown",
+        "meta.other.type.phpdoc.php keyword.other.type.php",
+        "meta.other.type.phpdoc.php support.other.namespace.php",
+        "meta.other.type.phpdoc.php punctuation.separator.inheritance.php",
+        "meta.other.type.phpdoc.php support.class",
+        "keyword.other.phpdoc.php",
+        "log.date"
+      ],
+      "settings": {
+        "foreground": "语法文档注释前景"
+      }
+    },
+    {
+      "name": "Comment Doc Emphasized",
+      "scope": [
+        "meta.other.type.phpdoc.php support.class",
+        "comment.block.documentation storage.type",
+        "comment.block.documentation punctuation.definition.block.tag",
+        "comment.block.documentation entity.name.type.instance"
+      ],
+      "settings": {
+        "foreground": "语法强调文档注释前景"
+      }
+    },
+    {
+      "name": "Number, Boolean, Undefined, Null",
+      "scope": [
+        "variable.other.constant",
+        "punctuation.definition.constant",
+        "constant.language",
+        "constant.numeric",
+        "support.constant",
+        "constant.other.caps"
+      ],
+      "settings": {
+        "foreground": "语法数字布尔未定义空值前景"
+      }
+    },
+    {
+      "name": "String, Symbols",
+      "scope": [
+        "string",
+        "constant.other.symbol",
+        "constant.other.key",
+        "meta.attribute-selector",
+        "string constant.character"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "语法字符串和符号前景"
+      }
+    },
+    {
+      "name": "Colors",
+      "scope": [
+        "constant.other.color",
+        "constant.other.color.rgb-value.hex punctuation.definition.constant"
+      ],
+      "settings": {
+        "foreground": "语法颜色字面量前景"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "语法无效语法前景"
+      }
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "foreground": "语法废弃无效语法前景"
+      }
+    },
+    {
+      "name": "Storage Type",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "语法存储类型前景"
+      }
+    },
+    {
+      "name": "Storage - modifier, var, const, let",
+      "scope": ["meta.var.expr storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "语法存储修饰符变量声明前景"
+      }
+    },
+    {
+      "name": "Interpolation / PHP tags / Smarty tags",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded",
+        "meta.embedded.line.tag.smarty",
+        "support.constant.handlebars",
+        "punctuation.section.tag.twig"
+      ],
+      "settings": {
+        "foreground": "语法插值和 PHP Smarty 标签前景"
+      }
+    },
+    {
+      "name": "Twig, Smarty, Blade, Handlebars keyword",
+      "scope": [
+        "keyword.control.smarty",
+        "keyword.control.twig",
+        "support.constant.handlebars keyword.control",
+        "keyword.operator.comparison.twig",
+        "keyword.blade",
+        "entity.name.function.blade",
+        "meta.tag.blade keyword.other.type.php"
+      ],
+      "settings": {
+        "foreground": "语法模板关键字前景"
+      }
+    },
+    {
+      "name": "Spread",
+      "scope": ["keyword.operator.spread", "keyword.operator.rest"],
+      "settings": {
+        "foreground": "语法展开运算符前景",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "keyword.operator",
+        "keyword.control.as",
+        "keyword.other",
+        "keyword.operator.bitwise.shift",
+        "punctuation",
+        "expression.embbeded.vue punctuation.definition.tag",
+        "text.html.twig meta.tag.inline.any.html",
+        "meta.tag.template.value.twig meta.function.arguments.twig",
+        "meta.directive.vue punctuation.separator.key-value.html",
+        "punctuation.definition.constant.markdown",
+        "punctuation.definition.string",
+        "punctuation.support.type.property-name",
+        "text.html.vue-html meta.tag",
+        "meta.attribute.directive",
+        "punctuation.definition.keyword",
+        "punctuation.terminator.rule",
+        "punctuation.definition.entity",
+        "punctuation.separator.inheritance.php",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "entity.name.operator",
+        "meta.property-list punctuation.separator.key-value",
+        "meta.at-rule.mixin punctuation.separator.key-value",
+        "meta.at-rule.function variable.parameter.url",
+        "meta.embedded.inline.phpx punctuation.definition.tag.begin.html",
+        "meta.embedded.inline.phpx punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "语法运算符和杂项前景"
+      }
+    },
+    {
+      "name": "Import, Export, From, Default",
+      "scope": [
+        "keyword.control.module.js",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.default",
+        "meta.import keyword.other"
+      ],
+      "settings": {
+        "foreground": "语法导入导出默认关键字前景"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "keyword.control", "keyword.other.important"],
+      "settings": {
+        "foreground": "语法关键字前景"
+      }
+    },
+    {
+      "name": "Keyword SQL",
+      "scope": "keyword.other.DML",
+      "settings": {
+        "foreground": "语法SQL 关键字前景"
+      }
+    },
+    {
+      "name": "Keyword Operator Logical, Arrow, Ternary, Comparison",
+      "scope": [
+        "keyword.operator.logical",
+        "storage.type.function",
+        "keyword.operator.bitwise",
+        "keyword.operator.ternary",
+        "keyword.operator.comparison",
+        "keyword.operator.relational",
+        "keyword.operator.or.regexp"
+      ],
+      "settings": {
+        "foreground": "语法逻辑箭头三元比较运算符前景"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "语法标签前景"
+      }
+    },
+    {
+      "name": "Tag - Custom / Unrecognized",
+      "scope": [
+        "entity.name.tag support.class.component",
+        "entity.name.tag.html.vue",
+        "meta.tag.custom entity.name.tag",
+        "meta.tag.other.unrecognized.html.derivative",
+        "meta.tag"
+      ],
+      "settings": {
+        "foreground": "语法自定义未识别标签前景"
+      }
+    },
+    {
+      "name": "Tag Punctuation",
+      "scope": [
+        "text.html.basic punctuation.definition.tag",
+        "text.html.php meta.embedded.block.html meta.tag.metadata.script.end.html punctuation.definition.tag.begin.html text.html.basic"
+      ],
+      "settings": {
+        "foreground": "语法标签标点前景"
+      }
+    },
+    {
+      "name": "Framework Tag Punctuation",
+      "scope": "punctuation.definition.tag",
+      "settings": {
+        "foreground": "语法框架标签标点前景"
+      }
+    },
+    {
+      "name": "Globals, PHP Constants, etc",
+      "scope": [
+        "constant.other.php",
+        "variable.other.global.safer",
+        "variable.other.global.safer punctuation.definition.variable",
+        "variable.other.global",
+        "variable.other.global punctuation.definition.variable",
+        "constant.other.haskell"
+      ],
+      "settings": {
+        "foreground": "语法全局和 PHP 常量前景"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "support.variable",
+        "string constant.other.placeholder",
+        "variable.parameter.handlebars",
+        "variable.other.object",
+        "meta.fstring",
+        "meta.function-call meta.function-call.arguments",
+        "meta.embedded.inline.phpx constant.other.php"
+      ],
+      "settings": {
+        "foreground": "语法变量前景"
+      }
+    },
+    {
+      "name": " Variable Array Key",
+      "scope": "meta.array.literal variable",
+      "settings": {
+        "foreground": "语法变量数组键前景"
+      }
+    },
+    {
+      "name": "Object Key",
+      "scope": [
+        "meta.object-literal.key",
+        "entity.name.type.hcl",
+        "string.alias.graphql",
+        "string.unquoted.graphql",
+        "string.unquoted.alias.graphql",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+        "meta.field.declaration.ts variable.object.property",
+        "meta.block entity.name.label"
+      ],
+      "settings": {
+        "foreground": "语法对象键前景"
+      }
+    },
+    {
+      "name": "Object Property",
+      "scope": [
+        "variable.other.property",
+        "support.variable.property",
+        "support.variable.property.dom",
+        "meta.function-call variable.other.object.property",
+        "variable.other.object.property.cs"
+      ],
+      "settings": {
+        "foreground": "语法对象属性前景"
+      }
+    },
+    {
+      "name": "Object Property",
+      "scope": "variable.other.object.property",
+      "settings": {
+        "foreground": "语法对象属性前景二"
+      }
+    },
+    {
+      "name": "Object Literal Member lvl 3 (Vue Prop Validation)",
+      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
+      "settings": {
+        "foreground": "语法Vue 属性校验对象成员前景"
+      }
+    },
+    {
+      "name": "C-related Block Level Variables",
+      "scope": "source.cpp meta.block variable.other",
+      "settings": {
+        "foreground": "语法C 相关块级变量前景"
+      }
+    },
+    {
+      "name": "Other Variable",
+      "scope": "support.other.variable",
+      "settings": {
+        "foreground": "语法其他变量前景"
+      }
+    },
+    {
+      "name": "Methods",
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "entity.name.method.js",
+        "variable.function.constructor",
+        "keyword.other.special-method",
+        "storage.type.cs"
+      ],
+      "settings": {
+        "foreground": "语法方法前景"
+      }
+    },
+    {
+      "name": "Function Definition",
+      "scope": [
+        "entity.name.function",
+        "variable.other.enummember",
+        "meta.function-call",
+        "meta.function-call entity.name.function",
+        "variable.function",
+        "meta.definition.method entity.name.function",
+        "meta.object-literal entity.name.function"
+      ],
+      "settings": {
+        "foreground": "语法函数定义前景"
+      }
+    },
+    {
+      "name": "Function Argument",
+      "scope": [
+        "variable.parameter.function.language.special",
+        "variable.parameter",
+        "meta.function.parameters punctuation.definition.variable",
+        "meta.function.parameter variable"
+      ],
+      "settings": {
+        "foreground": "语法函数参数前景"
+      }
+    },
+    {
+      "name": "Constant, Tag Attribute",
+      "scope": [
+        "keyword.other.type.php",
+        "storage.type.php",
+        "constant.character",
+        "constant.escape",
+        "keyword.other.unit"
+      ],
+      "settings": {
+        "foreground": "语法常量和标签属性前景"
+      }
+    },
+    {
+      "name": "Variable Definition",
+      "scope": [
+        "meta.definition.variable variable.other.constant",
+        "meta.definition.variable variable.other.readwrite",
+        "variable.declaration.hcl variable.other.readwrite.hcl",
+        "meta.mapping.key.hcl variable.other.readwrite.hcl",
+        "variable.other.declaration"
+      ],
+      "settings": {
+        "foreground": "语法变量定义前景"
+      }
+    },
+    {
+      "name": "Inherited Class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "语法继承类前景"
+      }
+    },
+    {
+      "name": "Class, Support, DOM, etc",
+      "scope": [
+        "support.class",
+        "support.type",
+        "variable.other.readwrite.alias",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "support.type.sys-types",
+        "support.variable.dom",
+        "support.constant.math",
+        "support.type.object.module",
+        "support.constant.json",
+        "entity.name.namespace",
+        "meta.import.qualifier",
+        "variable.other.constant.object"
+      ],
+      "settings": {
+        "foreground": "语法类支持和 DOM前景"
+      }
+    },
+    {
+      "name": "Class Name",
+      "scope": "entity.name",
+      "settings": {
+        "foreground": "语法类名前景"
+      }
+    },
+    {
+      "name": "Support Function",
+      "scope": "support.function",
+      "settings": {
+        "foreground": "语法支持函数前景"
+      }
+    },
+    {
+      "name": "CSS Class and Support",
+      "scope": [
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name",
+        "support.type.property-name.css",
+        "support.type.vendored.property-name",
+        "support.type.map.key"
+      ],
+      "settings": {
+        "foreground": "语法CSS 类和支持前景"
+      }
+    },
+    {
+      "name": "CSS Font",
+      "scope": ["support.constant.font-name", "meta.definition.variable"],
+      "settings": {
+        "foreground": "语法CSS 字体前景"
+      }
+    },
+    {
+      "name": "CSS Class",
+      "scope": [
+        "entity.other.attribute-name.class",
+        "meta.at-rule.mixin.scss entity.name.function.scss"
+      ],
+      "settings": {
+        "foreground": "语法CSS 类前景"
+      }
+    },
+    {
+      "name": "CSS ID",
+      "scope": "entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "语法CSS ID前景"
+      }
+    },
+    {
+      "name": "CSS Tag",
+      "scope": "entity.name.tag.css",
+      "settings": {
+        "foreground": "语法CSS 标签前景"
+      }
+    },
+    {
+      "name": "CSS Tag Reference, Pseudo & Class Punctuation",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class punctuation.definition.entity",
+        "entity.other.attribute-name.pseudo-element punctuation.definition.entity",
+        "entity.other.attribute-name.class punctuation.definition.entity",
+        "entity.name.tag.reference"
+      ],
+      "settings": {
+        "foreground": "语法CSS 标签引用伪类标点前景"
+      }
+    },
+    {
+      "name": "CSS Punctuation",
+      "scope": "meta.property-list",
+      "settings": {
+        "foreground": "语法CSS 标点前景"
+      }
+    },
+    {
+      "name": "CSS at-rule fix",
+      "scope": [
+        "meta.property-list meta.at-rule.if",
+        "meta.at-rule.return variable.parameter.url",
+        "meta.property-list meta.at-rule.else"
+      ],
+      "settings": {
+        "foreground": "语法CSS At 规则修正前景"
+      }
+    },
+    {
+      "name": "CSS Parent Selector Entity",
+      "scope": [
+        "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "语法CSS 父选择器实体前景"
+      }
+    },
+    {
+      "name": "CSS Punctuation comma fix",
+      "scope": "meta.property-list meta.property-list",
+      "settings": {
+        "foreground": "语法CSS 逗号标点修正前景"
+      }
+    },
+    {
+      "name": "SCSS @",
+      "scope": [
+        "meta.at-rule.mixin keyword.control.at-rule.mixin",
+        "meta.at-rule.include entity.name.function.scss",
+        "meta.at-rule.include keyword.control.at-rule.include"
+      ],
+      "settings": {
+        "foreground": "语法SCSS At 标记前景"
+      }
+    },
+    {
+      "name": "SCSS Mixins, Extends, Include Keyword",
+      "scope": [
+        "keyword.control.at-rule.include punctuation.definition.keyword",
+        "keyword.control.at-rule.mixin punctuation.definition.keyword",
+        "meta.at-rule.include keyword.control.at-rule.include",
+        "keyword.control.at-rule.extend punctuation.definition.keyword",
+        "meta.at-rule.extend keyword.control.at-rule.extend",
+        "entity.other.attribute-name.placeholder.css punctuation.definition.entity.css",
+        "meta.at-rule.media keyword.control.at-rule.media",
+        "meta.at-rule.mixin keyword.control.at-rule.mixin",
+        "meta.at-rule.function keyword.control.at-rule.function",
+        "keyword.control punctuation.definition.keyword"
+      ],
+      "settings": {
+        "foreground": "语法SCSS 混入继承包含关键字前景"
+      }
+    },
+    {
+      "name": "SCSS Include Mixin Argument",
+      "scope": "meta.property-list meta.at-rule.include",
+      "settings": {
+        "foreground": "语法SCSS 包含混入参数前景"
+      }
+    },
+    {
+      "name": "CSS value",
+      "scope": "support.constant.property-value",
+      "settings": {
+        "foreground": "语法CSS 值前景"
+      }
+    },
+    {
+      "name": "Sub-methods",
+      "scope": [
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+      ],
+      "settings": {
+        "foreground": "语法子方法前景"
+      }
+    },
+    {
+      "name": "Language methods",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "语法语言方法前景"
+      }
+    },
+    {
+      "name": "Variable punctuation",
+      "scope": "variable.other punctuation.definition.variable",
+      "settings": {
+        "foreground": "语法变量标点前景"
+      }
+    },
+    {
+      "name": "Keyword this with Punctuation, ES7 Bind Operator",
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js",
+        "variable.language.this punctuation.definition.variable",
+        "keyword.other.this"
+      ],
+      "settings": {
+        "foreground": "语法this 关键字标点和 ES7 绑定运算符前景"
+      }
+    },
+    {
+      "name": "HTML Attributes",
+      "scope": [
+        "entity.other.attribute-name",
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "语法HTML 属性前景"
+      }
+    },
+    {
+      "name": "HTML Character Entity",
+      "scope": "text.html constant.character.entity",
+      "settings": {
+        "foreground": "语法HTML 字符实体前景"
+      }
+    },
+    {
+      "name": "Vue (Vetur / deprecated) Template attributes",
+      "scope": [
+        "entity.other.attribute-name.id.html",
+        "meta.directive.vue entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "语法Vue 模板属性前景"
+      }
+    },
+    {
+      "name": "CSS ID's",
+      "scope": "source.sass keyword.control",
+      "settings": {
+        "foreground": "语法CSS ID 选择器前景"
+      }
+    },
+    {
+      "name": "CSS psuedo selectors",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.placeholder",
+        "meta.property-list meta.property-value"
+      ],
+      "settings": {
+        "foreground": "语法CSS 伪选择器前景"
+      }
+    },
+    {
+      "name": "Inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "语法插入内容前景"
+      }
+    },
+    {
+      "name": "Deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "语法删除内容前景"
+      }
+    },
+    {
+      "name": "Changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "语法变更内容前景"
+      }
+    },
+    {
+      "name": "Regular Expressions",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "语法正则表达式前景"
+      }
+    },
+    {
+      "name": "Regular Expressions - Punctuation",
+      "scope": "punctuation.definition.group",
+      "settings": {
+        "foreground": "语法正则表达式标点前景"
+      }
+    },
+    {
+      "name": "Regular Expressions - Character Class",
+      "scope": ["constant.other.character-class.regexp"],
+      "settings": {
+        "foreground": "语法正则表达式字符类前景"
+      }
+    },
+    {
+      "name": "Regular Expressions - Character Class Set",
+      "scope": [
+        "constant.other.character-class.set.regexp",
+        "punctuation.definition.character-class.regexp"
+      ],
+      "settings": {
+        "foreground": "语法正则表达式字符类集合前景"
+      }
+    },
+    {
+      "name": "Regular Expressions - Quantifier",
+      "scope": "keyword.operator.quantifier.regexp",
+      "settings": {
+        "foreground": "语法正则表达式量词前景"
+      }
+    },
+    {
+      "name": "Regular Expressions - Backslash",
+      "scope": "constant.character.escape.backslash",
+      "settings": {
+        "foreground": "语法正则表达式反斜杠前景"
+      }
+    },
+    {
+      "name": "Escape Characters",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "语法转义字符前景"
+      }
+    },
+    {
+      "name": "Decorators",
+      "scope": [
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js"
+      ],
+      "settings": {
+        "foreground": "语法装饰器前景"
+      }
+    },
+    {
+      "name": "CSS Units",
+      "scope": "keyword.other.unit",
+      "settings": {
+        "foreground": "语法CSS 单位前景"
+      }
+    },
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "语法JSON 键层级0前景"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "语法JSON 键层级1前景"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "语法JSON 键层级2前景"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "语法JSON 键层级3前景"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "语法JSON 键层级4前景"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "语法JSON 键层级5前景"
+      }
+    },
+    {
+      "name": "JSON Key - Level 6",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "语法JSON 键层级6前景"
+      }
+    },
+    {
+      "name": "JSON Key - Level 7",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "语法JSON 键层级7前景"
+      }
+    },
+    {
+      "name": "JSON Key - Level 8",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "语法JSON 键层级8前景"
+      }
+    },
+    {
+      "name": "Plain Punctuation",
+      "scope": "punctuation.definition.list_item.markdown",
+      "settings": {
+        "foreground": "语法普通标点前景"
+      }
+    },
+    {
+      "name": "Block Punctuation",
+      "scope": [
+        "meta.block",
+        "meta.brace",
+        "punctuation.definition.block",
+        "punctuation.definition.use",
+        "punctuation.definition.class",
+        "punctuation.definition.begin.bracket",
+        "punctuation.definition.end.bracket",
+        "punctuation.definition.switch-expression.begin.bracket",
+        "punctuation.definition.switch-expression.end.bracket",
+        "punctuation.definition.section.switch-block.begin.bracket",
+        "punctuation.definition.section.switch-block.end.bracket",
+        "punctuation.definition.group.shell",
+        "punctuation.definition.parameters",
+        "punctuation.definition.arguments",
+        "punctuation.definition.dictionary",
+        "punctuation.definition.array",
+        "punctuation.section"
+      ],
+      "settings": {
+        "foreground": "语法块标点前景"
+      }
+    },
+    {
+      "name": "Markdown - Plain",
+      "scope": ["meta.embedded.block"],
+      "settings": {
+        "foreground": "语法Markdown 普通文本前景"
+      }
+    },
+    {
+      "name": "HTML text",
+      "scope": [
+        "meta.tag JSXNested",
+        "meta.jsx.children",
+        "text.html",
+        "text.log"
+      ],
+      "settings": {
+        "foreground": "语法HTML 文本前景"
+      }
+    },
+    {
+      "name": "Markdown - Markup Raw Inline",
+      "scope": "text.html.markdown markup.inline.raw.markdown",
+      "settings": {
+        "foreground": "语法Markdown 原始内联标记前景"
+      }
+    },
+    {
+      "name": "Markdown - Markup Raw Inline Punctuation",
+      "scope": "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
+      "settings": {
+        "foreground": "语法Markdown 原始内联标记标点前景"
+      }
+    },
+    {
+      "name": "Markdown - Heading 1",
+      "scope": [
+        "heading.1.markdown entity.name",
+        "heading.1.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "语法Markdown 一级标题前景"
+      }
+    },
+    {
+      "name": "Markdown - Heading 2",
+      "scope": [
+        "heading.2.markdown entity.name",
+        "heading.2.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "语法Markdown 二级标题前景"
+      }
+    },
+    {
+      "name": "Markdown - Heading 3",
+      "scope": [
+        "heading.3.markdown entity.name",
+        "heading.3.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "语法Markdown 三级标题前景"
+      }
+    },
+    {
+      "name": "Markdown - Heading 4",
+      "scope": [
+        "heading.4.markdown entity.name",
+        "heading.4.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "语法Markdown 四级标题前景"
+      }
+    },
+    {
+      "name": "Markdown - Heading 5",
+      "scope": [
+        "heading.5.markdown entity.name",
+        "heading.5.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "语法Markdown 五级标题前景"
+      }
+    },
+    {
+      "name": "Markdown - Heading 6",
+      "scope": [
+        "heading.6.markdown entity.name",
+        "heading.6.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "语法Markdown 六级标题前景"
+      }
+    },
+    {
+      "name": "Markup - Italic",
+      "scope": ["markup.italic", "markup.italic punctuation"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "语法标记斜体前景"
+      }
+    },
+    {
+      "name": "Markup - Bold",
+      "scope": ["markup.bold", "markup.bold punctuation"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "语法标记粗体前景"
+      }
+    },
+    {
+      "name": "Markup - Bold-Italic",
+      "scope": [
+        "markup.bold markup.italic",
+        "markup.bold markup.italic punctuation"
+      ],
+      "settings": {
+        "fontStyle": "bold italic",
+        "foreground": "语法标记粗斜体前景"
+      }
+    },
+    {
+      "name": "Markup - Underline",
+      "scope": ["markup.underline", "markup.underline punctuation"],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markdown - Blockquote",
+      "scope": "markup.quote punctuation.definition.blockquote.markdown",
+      "settings": {
+        "foreground": "语法Markdown 引用块前景"
+      }
+    },
+    {
+      "name": "Markup - Quote",
+      "scope": "markup.quote",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Link",
+      "scope": [
+        "string.other.link",
+        "markup.underline.link",
+        "constant.other.reference.link.markdown",
+        "string.other.link.description.title.markdown"
+      ],
+      "settings": {
+        "foreground": "语法Markdown 链接前景"
+      }
+    },
+    {
+      "name": "Markdown - Fenced Code Block",
+      "scope": [
+        "markup.fenced_code.block.markdown",
+        "markup.inline.raw.string.markdown",
+        "variable.language.fenced.markdown"
+      ],
+      "settings": {
+        "foreground": "语法Markdown 围栏代码块前景"
+      }
+    },
+    {
+      "name": "Markdown - Separator",
+      "scope": "meta.separator",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "语法Markdown 分隔符前景"
+      }
+    },
+    {
+      "name": "Markup - Table",
+      "scope": "markup.table",
+      "settings": {
+        "foreground": "语法标记表格前景"
+      }
+    },
+    {
+      "name": "Token - Info",
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "语法信息令牌前景"
+      }
+    },
+    {
+      "name": "Token - Warn",
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "语法警告令牌前景"
+      }
+    },
+    {
+      "name": "Token - Error",
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "语法错误令牌前景"
+      }
+    },
+    {
+      "name": "Token - Debug",
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "语法调试令牌前景"
+      }
+    },
+    {
+      "name": "Apache Tag",
+      "scope": "entity.tag.apacheconf",
+      "settings": {
+        "foreground": "语法Apache 标签前景"
+      }
+    },
+    {
+      "name": "Preprocessor",
+      "scope": ["meta.preprocessor"],
+      "settings": {
+        "foreground": "语法预处理器前景"
+      }
+    },
+    {
+      "name": "ENV value",
+      "scope": "source.env",
+      "settings": {
+        "foreground": "语法环境变量值前景"
+      }
+    }
+  ]
+}
