@@ -4,7 +4,7 @@
 
 > 一款适用于 Visual Studio Code 的深色紫色主题。
 
-![Version](https://img.shields.io/badge/version-1.0.8-blue)
+![Version](https://img.shields.io/badge/version-1.0.9-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%5E1.17.0-blue)
 
@@ -41,7 +41,7 @@
 也可以直接从 `.vsix` 文件安装：
 
 ```bash
-code --install-extension bobe-fish-1.0.8.vsix
+code --install-extension bobe-fish-1.0.9.vsix
 ```
 
 ## 开发
@@ -82,7 +82,7 @@ MIT — 详情见 [LICENSE](./LICENSEt)。
 
 > A Dark purple Theme for Visual Studio Code.
 
-![Version](https://img.shields.io/badge/version-1.0.8-blue)
+![Version](https://img.shields.io/badge/version-1.0.9-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%5E1.17.0-blue)
 
@@ -119,7 +119,7 @@ MIT — 详情见 [LICENSE](./LICENSEt)。
 Or install directly from the `.vsix` file:
 
 ```bash
-code --install-extension bobe-fish-1.0.8.vsix
+code --install-extension bobe-fish-1.0.9.vsix
 ```
 
 ## Development

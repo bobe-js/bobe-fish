@@ -1860,25 +1860,25 @@ export const blackHighContrastOverrides: Partial<ThemePalette> = {
   活动栏徽章前景: "#f0f0f0", // colors.activityBarBadge.foreground
   顶部活动栏前景: "#b8b8b8", // colors.activityBarTop.foreground
   顶部活动栏未激活前景: "#6f6f6f", // colors.activityBarTop.inactiveForeground
-  侧边栏前景: "#a8a8a8", // colors.sideBar.foreground
+  侧边栏前景: "#969696", // colors.sideBar.foreground
   侧边栏背景: "#1b1b1b", // colors.sideBar.background
   侧边栏边框: "#303030", // colors.sideBar.border
-  侧边栏标题前景: "#b8b8b8", // colors.sideBarTitle.foreground
+  侧边栏标题前景: "#a6a6a6", // colors.sideBarTitle.foreground
   侧边栏分区标题背景: "#1b1b1b", // colors.sideBarSectionHeader.background
-  侧边栏分区标题前景: "#d0d0d0", // colors.sideBarSectionHeader.foreground
+  侧边栏分区标题前景: "#b8b8b8", // colors.sideBarSectionHeader.foreground
   侧边栏分区标题边框: "#303030", // colors.sideBarSectionHeader.border
   侧边栏拖放背景: "#2a2a2a", // colors.sideBar.dropBackground
   列表拖放背景: "#2a2a2a", // colors.list.dropBackground
-  列表弱化前景: "#8f8f8f", // colors.list.deemphasizedForeground
+  列表弱化前景: "#808080", // colors.list.deemphasizedForeground
   列表激活选中背景: "#303030", // colors.list.activeSelectionBackground
-  列表激活选中前景: "#e0e0e0", // colors.list.activeSelectionForeground
+  列表激活选中前景: "#c2c2c2", // colors.list.activeSelectionForeground
   列表未激活选中背景: "#292929", // colors.list.inactiveSelectionBackground
-  列表未激活选中前景: "#d0d0d0", // colors.list.inactiveSelectionForeground
+  列表未激活选中前景: "#b8b8b8", // colors.list.inactiveSelectionForeground
   列表焦点背景: "#262626", // colors.list.focusBackground
-  列表焦点前景: "#e0e0e0", // colors.list.focusForeground
+  列表焦点前景: "#c2c2c2", // colors.list.focusForeground
   列表悬停背景: "#242424", // colors.list.hoverBackground
-  列表悬停前景: "#d0d0d0", // colors.list.hoverForeground
-  列表高亮前景: "#c6c6c6", // colors.list.highlightForeground
+  列表悬停前景: "#b8b8b8", // colors.list.hoverForeground
+  列表高亮前景: "#a8a8a8", // colors.list.highlightForeground
   列表筛选器背景: "#242424", // colors.listFilterWidget.background
   列表筛选器轮廓: "#3a3a3a", // colors.listFilterWidget.outline
   列表筛选器无匹配轮廓: "#3a3a3a", // colors.listFilterWidget.noMatchesOutline
@@ -1989,9 +1989,11 @@ export const blackHighContrastOverrides: Partial<ThemePalette> = {
   "终端ANSI 亮蓝色": "#c6c6c6", // colors.terminal.ansiBrightBlue
   "终端ANSI 亮品红色": "#d0d0d0", // colors.terminal.ansiBrightMagenta
   "终端ANSI 亮白色": "#eeeeee", // colors.terminal.ansiBrightWhite
-  "Git 装饰已修改资源前景": "#8f8f8f", // colors.gitDecoration.modifiedResourceForeground
-  "Git 装饰忽略资源前景": "#707070", // colors.gitDecoration.ignoredResourceForeground
-  "Git 装饰暂存修改资源前景": "#8f8f8f", // colors.gitDecoration.stageModifiedResourceForeground
+  "Git 装饰已修改资源前景": "#6ea8d9", // colors.gitDecoration.modifiedResourceForeground
+  "Git 装饰忽略资源前景": "#4A4A4A", // colors.gitDecoration.ignoredResourceForeground
+  "Git 装饰新增资源前景": "#78b56f", // colors.gitDecoration.addedResourceForeground
+  "Git 装饰未跟踪资源前景": "#78b56f", // colors.gitDecoration.untrackedResourceForeground
+  "Git 装饰暂存修改资源前景": "#6ea8d9", // colors.gitDecoration.stageModifiedResourceForeground
   笔记本编辑器背景: "#1c1c1c", // colors.notebook.editorBackground
   笔记本单元格编辑器背景: "#1b1b1b", // colors.notebook.cellEditorBackground
   笔记本单元格边框颜色: "#2b2d31", // colors.notebook.cellBorderColor
