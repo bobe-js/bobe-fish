@@ -2,7 +2,7 @@
   "name": "bobe-fish",
   "displayName": "Bobe Fish",
   "description": "A Dark purple Theme for Visual Studio Code",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publisher": "smooth-cat",
   "license": "MIT",
   "keywords": [
@@ -58,6 +58,7 @@
   "scripts": {
     "log": "vsce login",
     "setup": "cd node_modules/bun && node install.js",
+    "ver": "bun scripts/update-version.ts",
     "build:themes": "bun scripts/build-themes.ts",
     "build": "bun scripts/build-themes.ts && vsce package",
     "pub": "bun scripts/build-themes.ts && vsce publish"

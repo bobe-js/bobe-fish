@@ -4,7 +4,7 @@
 
 > 一款适用于 Visual Studio Code 的深色紫色主题。
 
-![Version](https://img.shields.io/badge/version-1.0.5-blue)
+![Version](https://img.shields.io/badge/version-1.0.7-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%5E1.17.0-blue)
 
@@ -41,7 +41,7 @@
 也可以直接从 `.vsix` 文件安装：
 
 ```bash
-code --install-extension bobe-fish-0.0.1.vsix
+code --install-extension bobe-fish-1.0.7.vsix
 ```
 
 ## 开发
@@ -60,8 +60,8 @@ pnpm install
 # 安装主题脚本使用的 Bun 运行时
 pnpm run setup
 
-# 生成主题 JSON 文件
-pnpm run build:themes
+# 更新包版本
+pnpm run ver
 
 # 打包扩展
 pnpm run build
@@ -82,7 +82,7 @@ MIT — 详情见 [LICENSE](./LICENSEt)。
 
 > A Dark purple Theme for Visual Studio Code.
 
-![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![Version](https://img.shields.io/badge/version-1.0.7-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%5E1.17.0-blue)
 
@@ -119,7 +119,7 @@ MIT — 详情见 [LICENSE](./LICENSEt)。
 Or install directly from the `.vsix` file:
 
 ```bash
-code --install-extension bobe-fish-0.0.1.vsix
+code --install-extension bobe-fish-1.0.7.vsix
 ```
 
 ## Development
@@ -138,8 +138,8 @@ pnpm install
 # Install Bun runtime used by theme scripts
 pnpm run setup
 
-# Generate theme JSON files
-pnpm run build:themes
+# Update Version
+pnpm run ver
 
 # Package the extension
 pnpm run build
