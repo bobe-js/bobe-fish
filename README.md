@@ -76,7 +76,7 @@ MIT — 详情见 [LICENSE](./LICENSEt)。
 
 ---
 
-[中文](#波 比 🐟) &nbsp;[English](#Bobe 🐟)
+[中文](#波-比-🐟) &nbsp;[English](#Bobe-🐟)
 
 # Bobe 🐟
 
