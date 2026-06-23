@@ -13,12 +13,12 @@
 ## 预览
 
 ### 主题列表
-
-<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black.png?raw=true" width="48%" />
-<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/purple.png?raw=true" width="48%" />
-
-<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black-high-constant.png?raw=true" width="48%" />
-<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/blue.png?raw=true" width="48%" />
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black.png?raw=true"/>
+  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/purple.png?raw=true"/>
+  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black-high-constant.png?raw=true"/>
+  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/blue.png?raw=true"/>
+</div>
 
 ### Bobe
 
@@ -92,13 +92,12 @@ MIT — 详情见 [LICENSE](./LICENSEt)。
 ## Preview
 
 ### Theme List
-
-<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black.png?raw=true" width="48%" />
-<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/purple.png?raw=true" width="48%" />
-
-<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black-high-constant.png?raw=true" width="48%" />
-<img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/blue.png?raw=true" width="48%" />
-
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black.png?raw=true"/>
+  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/purple.png?raw=true"/>
+  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black-high-constant.png?raw=true"/>
+  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/blue.png?raw=true"/>
+</div>
 ### Bobe
 
 <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/bobe.png?raw=true"/>
