@@ -1915,12 +1915,28 @@ export const blackHighContrastOverrides: Partial<ThemePalette> = {
   面包屑前景: "#7a7a7a", // colors.breadcrumb.foreground
   面包屑焦点前景: "#d0d0d0", // colors.breadcrumb.focusForeground
   面包屑激活选中前景: "#d0d0d0", // colors.breadcrumb.activeSelectionForeground
+  窥视视图边框: "#303030", // colors.peekView.border
+  窥视编辑器背景: "#1b1b1b", // colors.peekViewEditor.background
+  窥视编辑器匹配高亮背景: "#3a3a3a66", // colors.peekViewEditor.matchHighlightBackground
+  窥视视图标题背景: "#1b1b1b", // colors.peekViewTitle.background
+  窥视视图标题标签前景: "#d0d0d0", // colors.peekViewTitleLabel.foreground
   窥视视图标题描述前景: "#8f8f8f", // colors.peekViewTitleDescription.foreground
+  窥视结果背景: "#1b1b1b", // colors.peekViewResult.background
+  窥视结果选中前景: "#e0e0e0", // colors.peekViewResult.selectionForeground
+  窥视结果选中背景: "#303030", // colors.peekViewResult.selectionBackground
+  窥视结果行前景: "#c6c6c6", // colors.peekViewResult.lineForeground
   窥视结果文件前景: "#8f8f8f", // colors.peekViewResult.fileForeground
+  窥视结果匹配高亮背景: "#3a3a3a66", // colors.peekViewResult.matchHighlightBackground
   标签页激活背景: "#1c1c1c", // colors.tab.activeBackground
   标签页未激活背景: "#1b1b1b", // colors.tab.inactiveBackground
+  标签页激活前景: "#d0d0d0", // colors.tab.activeForeground
+  标签页悬停前景: "#d0d0d0", // colors.tab.hoverForeground
   标签页激活边框: "#3a3a3a", // colors.tab.activeBorder
+  标签页未激活前景: "#8f8f8f", // colors.tab.inactiveForeground
   标签页边框: "#303030", // colors.tab.border
+  标签页失焦激活前景: "#c6c6c6", // colors.tab.unfocusedActiveForeground
+  标签页失焦未激活前景: "#707070", // colors.tab.unfocusedInactiveForeground
+  标签页失焦悬停前景: "#c6c6c6", // colors.tab.unfocusedHoverForeground
   标签页激活已修改边框: "#4a4a4a", // colors.tab.activeModifiedBorder
   标签页未激活已修改边框: "#3a3a3a", // colors.tab.inactiveModifiedBorder
   标签页失焦激活边框: "#303030", // colors.tab.unfocusedActiveBorder
@@ -1946,6 +1962,7 @@ export const blackHighContrastOverrides: Partial<ThemePalette> = {
   标题栏激活背景: "#1b1b1b", // colors.titleBar.activeBackground
   标题栏未激活背景: "#1b1b1b", // colors.titleBar.inactiveBackground
   标题栏边框: "#303030", // colors.titleBar.border
+  演练嵌入编辑器背景: "#1b1b1b", // colors.walkThrough.embeddedEditorBackground
   文本链接前景: "#c6c6c6", // colors.textLink.foreground
   文本链接激活前景: "#eeeeee", // colors.textLink.activeForeground
   文本引用块背景: "#1b1b1b", // colors.textBlockQuote.background
@@ -1959,19 +1976,37 @@ export const blackHighContrastOverrides: Partial<ThemePalette> = {
   调试视图状态标签前景: "#d0d0d0", // colors.debugView.stateLabelForeground
   调试视图状态标签背景: "#2a2a2a", // colors.debugView.stateLabelBackground
   调试视图值变更高亮: "#41a6b5cc", // colors.debugView.valueChangedHighlight
+  调试表达式值: "#c6c6c6", // colors.debugTokenExpression.value
+  调试图标禁用断点前景: "#707070", // colors.debugIcon.breakpointDisabledForeground
   终端背景: "#1b1b1b", // colors.terminal.background
   终端前景: "#c6c6c6", // colors.terminal.foreground
   终端选中背景: "#5c5c5c55", // colors.terminal.selectionBackground
   "终端ANSI 黑色": "#5f5f5f", // colors.terminal.ansiBlack
+  "终端ANSI 蓝色": "#9a9a9a", // colors.terminal.ansiBlue
+  "终端ANSI 品红色": "#b8b8b8", // colors.terminal.ansiMagenta
   "终端ANSI 白色": "#c6c6c6", // colors.terminal.ansiWhite
   "终端ANSI 亮黑色": "#777777", // colors.terminal.ansiBrightBlack
+  "终端ANSI 亮蓝色": "#c6c6c6", // colors.terminal.ansiBrightBlue
+  "终端ANSI 亮品红色": "#d0d0d0", // colors.terminal.ansiBrightMagenta
   "终端ANSI 亮白色": "#eeeeee", // colors.terminal.ansiBrightWhite
+  "Git 装饰已修改资源前景": "#8f8f8f", // colors.gitDecoration.modifiedResourceForeground
   "Git 装饰忽略资源前景": "#707070", // colors.gitDecoration.ignoredResourceForeground
+  "Git 装饰暂存修改资源前景": "#8f8f8f", // colors.gitDecoration.stageModifiedResourceForeground
   笔记本编辑器背景: "#1c1c1c", // colors.notebook.editorBackground
   笔记本单元格编辑器背景: "#1b1b1b", // colors.notebook.cellEditorBackground
   笔记本单元格边框颜色: "#2b2d31", // colors.notebook.cellBorderColor
   笔记本焦点单元格边框: "#2b2d31", // colors.notebook.focusedCellBorder
   笔记本单元格状态栏项悬停背景: "#2a2a2a", // colors.notebook.cellStatusBarItemHoverBackground
+  图表蓝色: "#9a9a9a", // colors.charts.blue
+  图表紫色: "#b8b8b8", // colors.charts.purple
+  图表前景: "#c6c6c6", // colors.charts.foreground
+  图表线条: "#303030", // colors.charts.lines
+  源代码管理图历史项悬停标签前景: "#c6c6c6", // colors.scmGraph.historyItemHoverLabelForeground
+  源代码管理图前景4: "#9a9a9a", // colors.scmGraph.foreground4
+  源代码管理图前景5: "#b8b8b8", // colors.scmGraph.foreground5
+  源代码管理图历史项引用颜色: "#9a9a9a", // colors.scmGraph.historyItemRefColor
+  源代码管理图历史项基础引用颜色: "#b8b8b8", // colors.scmGraph.historyItemBaseRefColor
+  源代码管理图历史项悬停默认标签前景: "#d0d0d0", // colors.scmGraph.historyItemHoverDefaultLabelForeground
   通知中心标题背景: "#1b1b1b", // colors.notificationCenterHeader.background
   通知背景: "#1b1b1b", // colors.notifications.background
   通知链接前景: "#c6c6c6", // colors.notificationLink.foreground
@@ -1990,6 +2025,7 @@ export const blackHighContrastOverrides: Partial<ThemePalette> = {
   聊天头像背景: "#2a2a2a", // colors.chat.avatarBackground
   聊天头像前景: "#d0d0d0", // colors.chat.avatarForeground
   "GitLens 尾随行前景颜色": "#777777", // colors.gitlens.trailingLineForegroundColor
+  "GitLens 边栏未提交前景颜色": "#9a9a9a", // colors.gitlens.gutterUncommittedForegroundColor
   "GitLens 边栏前景颜色": "#8f8f8f", // colors.gitlens.gutterForegroundColor
 };
 
