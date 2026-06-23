@@ -4,7 +4,7 @@
 
 > 一款适用于 Visual Studio Code 的深色紫色主题。
 
-![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![Version](https://img.shields.io/badge/version-1.0.5-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%5E1.17.0-blue)
 
@@ -13,12 +13,11 @@
 ## 预览
 
 ### 主题列表
-<div style="display:grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black.png?raw=true"/>
-  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/purple.png?raw=true"/>
-  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black-high-constant.png?raw=true"/>
-  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/blue.png?raw=true"/>
-</div>
+
+| 黑色主题 | 彩色主题 |
+| --- | --- |
+| <img alt="Bobe Fish Black" src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black.png?raw=true" /> | <img alt="Bobe Fish Purple" src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/purple.png?raw=true" /> |
+| <img alt="Bobe Fish Black High Contrast" src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black-high-constant.png?raw=true" /> | <img alt="Bobe Fish Blue" src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/blue.png?raw=true" /> |
 
 ### Bobe
 
@@ -92,12 +91,12 @@ MIT — 详情见 [LICENSE](./LICENSEt)。
 ## Preview
 
 ### Theme List
-<div style="display:grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black.png?raw=true"/>
-  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/purple.png?raw=true"/>
-  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black-high-constant.png?raw=true"/>
-  <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/blue.png?raw=true"/>
-</div>
+
+| Black Themes | Colorful Themes |
+| --- | --- |
+| <img alt="Bobe Fish Black" src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black.png?raw=true" /> | <img alt="Bobe Fish Purple" src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/purple.png?raw=true" /> |
+| <img alt="Bobe Fish Black High Contrast" src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/black-high-constant.png?raw=true" /> | <img alt="Bobe Fish Blue" src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/blue.png?raw=true" /> |
+
 ### Bobe
 
 <img src="https://github.com/bobe-js/bobe-fish/blob/master/imgs/bobe.png?raw=true"/>
