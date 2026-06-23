@@ -1,4 +1,4 @@
-[中文](#波 比 🐟) &nbsp;[English](#Bobe 🐟)
+[中文](#波-比-🐟) &nbsp;[English](#Bobe-🐟)
 
 # 波 比 🐟
 
