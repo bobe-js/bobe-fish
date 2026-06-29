@@ -1931,7 +1931,7 @@ export const blackHighContrastOverrides: Partial<ThemePalette> = {
   标签页未激活背景: "#1b1b1b", // colors.tab.inactiveBackground
   标签页激活前景: "#d0d0d0", // colors.tab.activeForeground
   标签页悬停前景: "#d0d0d0", // colors.tab.hoverForeground
-  标签页激活边框: "#5f93bd", // colors.tab.activeBorder
+  标签页激活边框: "#456f91", // colors.tab.activeBorder
   标签页未激活前景: "#8f8f8f", // colors.tab.inactiveForeground
   标签页边框: "#303030", // colors.tab.border
   标签页失焦激活前景: "#c6c6c6", // colors.tab.unfocusedActiveForeground
@@ -1939,7 +1939,7 @@ export const blackHighContrastOverrides: Partial<ThemePalette> = {
   标签页失焦悬停前景: "#c6c6c6", // colors.tab.unfocusedHoverForeground
   标签页激活已修改边框: "#4a4a4a", // colors.tab.activeModifiedBorder
   标签页未激活已修改边框: "#3a3a3a", // colors.tab.inactiveModifiedBorder
-  标签页失焦激活边框: "#3f637f", // colors.tab.unfocusedActiveBorder
+  标签页失焦激活边框: "#314f66", // colors.tab.unfocusedActiveBorder
   标签页最后固定边框: "#303030", // colors.tab.lastPinnedBorder
   面板背景: "#1b1b1b", // colors.panel.background
   面板边框: "#303030", // colors.panel.border
